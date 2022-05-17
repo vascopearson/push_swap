@@ -33,7 +33,7 @@ For detailed information, refer to the [**subject of this project**](https://git
 - **rrb**: *reverse rotate b* - shift down all elements of stack b by 1. The last element becomes the first one.
 - **rrr**: rra and rrb at the same time.
 
-# Approach
+### Approach
 
 The algorithm I used for stacks with more than 5 numbers is explained very well in [**this video**](https://youtu.be/7KW59UO55TQ).
 
