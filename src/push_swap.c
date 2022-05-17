@@ -6,7 +6,7 @@
 /*   By: vserrao- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/11 12:35:11 by vserrao-          #+#    #+#             */
-/*   Updated: 2022/05/11 16:16:09 by vserrao-         ###   ########.fr       */
+/*   Updated: 2022/05/11 17:06:26 by vserrao-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,13 @@ int	main(int argc, char **argv)
 	a = init_stack(argc, argv);
 	b = init_second_stack(argc);
 	if (argc < 2 || (argc == 2 && ft_is_nbr(argc, argv)))
+	{
+		free_stacks(a, b);
 		return (0);
+	}
 	if (check_errors(argc, argv))
 	{
+		free_stacks(a, b);
 		write(2, "Error\n", 6);
 		return (1);
 	}

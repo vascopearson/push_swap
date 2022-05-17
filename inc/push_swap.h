@@ -6,14 +6,14 @@
 /*   By: vserrao- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/11 14:39:06 by vserrao-          #+#    #+#             */
-/*   Updated: 2022/05/11 15:02:48 by vserrao-         ###   ########.fr       */
+/*   Updated: 2022/05/11 17:09:34 by vserrao-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
-# include "../libft/libft.h"
+# include "libft.h"
 # include <unistd.h>
 # include <stdio.h>
 
